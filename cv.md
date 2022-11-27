@@ -69,3 +69,9 @@ blockLang.onclick = function () {
 	}
 };
 ```
+
+## Education
+
+-   MSUT named of Razumovsky.
+-   College Energy, ex. SCTM.
+-   Channel on youtube - Freelincer Life Style.
