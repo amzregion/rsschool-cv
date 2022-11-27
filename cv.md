@@ -88,3 +88,8 @@ I used HTML, CSS and JS in my projects.
 -   MSUT named of Razumovsky.
 -   College Energy, ex. SCTM.
 -   Channel on youtube - Freelincer Life Style.
+
+## English
+
+A0. Undestand base words and phrases.  
+I lern English on app for education (English Galaxy, Lingualeo, EWA).
