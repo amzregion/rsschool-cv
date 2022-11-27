@@ -8,7 +8,8 @@
 **Phone number:** [+7 (915) 201-55-11](tel:+79152015511)  
 **E-mail:** [amzregion@gmail.com](mailto:amzregion@gmail.com)  
 **Telegram:** [@amzregion](https://t.me/amzregion)  
-**GitHub:** [amzregion](https://github.com/amzregion)
+**GitHub:** [amzregion](https://github.com/amzregion)  
+**Discord on RS:** amz (@amzregion)
 
 ![](https://i.imgur.com/bowtu0A.png)
 
@@ -69,6 +70,18 @@ blockLang.onclick = function () {
 	}
 };
 ```
+
+## Work experience
+
+No commercial experience.
+
+**My projects on github:**
+
+1. [Luxtrade](https://amzregion.github.io/Luxtrade/)
+2. [Charger](https://amzregion.github.io/Charger/)
+3. [Wooder](https://amzregion.github.io/Wooder/)
+
+I used HTML, CSS and JS in my projects.
 
 ## Education
 
