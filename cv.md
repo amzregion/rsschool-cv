@@ -1,6 +1,6 @@
 # Egor Volkov
 
-![](https://media-exp1.licdn.com/dms/image/C4D35AQGZmQfeZPnjBw/profile-framedphoto-shrink_200_200/0/1618946465705?e=1670162400&v=beta&t=uIYC-r1-p2Q4AwJSs_nDSEMf4pcFXF7SZIDWUTo2hxw)
+![](https://i.imgur.com/QfyCea1.jpg)
 
 ## Contact Info
 
