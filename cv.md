@@ -16,3 +16,11 @@ I'm 28 y.o. and I'm study in RS School on course Frontend Stage 0. I think that 
 I was study in MSUT named of Razumovsky on faculty informatics and computer engineering.
 
 I want learn new profession Frontend developer and job with it.
+
+## My skills
+
+1. HTML
+2. CSS (SCSS)
+3. JS (Base)
+4. Base of adaptive and media quary layout.
+5. Base of GIT and github
