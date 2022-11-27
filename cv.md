@@ -26,3 +26,46 @@ I want learn new profession Frontend developer and job with it.
 3. JS (Base)
 4. Base of adaptive and media quary layout.
 5. Base of GIT and github
+
+## Code example
+
+```
+const headerIcon = document.querySelector('.header__icon'),
+	headerBlock = document.querySelector('.header__block');
+
+headerIcon.onclick = function () {
+	headerIcon.classList.toggle('_active');
+	headerBlock.classList.toggle('_active');
+};
+
+const blockLang = document.querySelector('.block__lang-item-en'),
+	headerLang = document.querySelector('.header__lang-item-en');
+
+headerLang.onclick = function () {
+	if (headerLang.classList == 'header__lang-item-en _ru') {
+		headerLang.textContent = 'en';
+		headerLang.classList.remove('_ru');
+		blockLang.textContent = 'en';
+		blockLang.classList.remove('_ru');
+	} else {
+		headerLang.textContent = 'ru';
+		headerLang.classList.add('_ru');
+		blockLang.textContent = 'ru';
+		blockLang.classList.add('_ru');
+	}
+};
+
+blockLang.onclick = function () {
+	if (headerLang.classList == 'header__lang-item-en _ru') {
+		headerLang.textContent = 'en';
+		headerLang.classList.remove('_ru');
+		blockLang.textContent = 'en';
+		blockLang.classList.remove('_ru');
+	} else {
+		headerLang.textContent = 'ru';
+		headerLang.classList.add('_ru');
+		blockLang.textContent = 'ru';
+		blockLang.classList.add('_ru');
+	}
+};
+```
