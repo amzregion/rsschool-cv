@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CV#3. CV. Cross-Check</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="header-navigation">
+                <a href="#about-me">About me</a>
+                <a href="#code-example">Code example</a>
+                <a href="#work-experience">Work experience</a>
+                <a href="#education">Education</a>
+                <a href="#english">English</a>
+            </nav>
+            <div class="header-person">
+                <div class="header-photo">
+                    <img src="photo.jpg" alt="Egor Volkov photo" title="Egor Volkov" class="header-photo__image">
+                </div>
+                <div class="header-info">
+                    <h1 class="header-info__name">Egor Volkov</h1>
+                    <h3 class="header-info__profession">Frontend Developer</h3>
+                </div>
+            </div>
+        </header>
+        <div class="content">
+            <aside>
+                <section class="skills">
+                    <h2>My skills</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS (SCSS)</li>
+                        <li>JS (Base)</li>
+                        <li>Base of adaptive and media quary layout.</li>
+                        <li>Base of GIT and github</li>
+                    </ul>
+                </section>
+                <section class="contacts">
+                    <h2>Contact info</h2>
+                    <ul>
+                        <li>Location: <a href="https://yandex.ru/maps/10716/balashiha/?ll=37.992372%2C55.789178&z=12.4">Russia, Balashikha</a></li>
+                        <li>Phone number: <a href="tel:+77777777">+7 (915) 201-55-11</a></li>
+                        <li>E-mail: <a href="mailto:amzregion@gmail.com">amzregion@gmail.com</a></li>
+                        <li>Telegram: <a href="https://t.me/amzregion">@amzregion</a></li>
+                        <li>GitHub: <a href="https://github.com/amzregion">amzregion</a></li>
+                        <li>Discord on RS: <a href="https://discordapp.com/users/733369922159378502/">amz (@amzregion)</a></li>
+                    </ul>
+                </section>
+            </aside>
+            <main>
+                <section>
+                    <h2 id="about-me">About me</h2>
+                    <p>I’m 28 y.o. and I’m study in RS School on course Frontend Stage 0. I think that my English is A0, but I lerning everyday. More text writen with google translate.</p>
+                    <p>I was study in MSUT named of Razumovsky on faculty informatics and computer engineering.</p>
+                    <p>I want learn new profession Frontend developer and job with it.</p>
+                </section>
+                <section>
+                    <h2 id="code-example">Code example</h2>
+                    <pre>
+                        <code>
+const headerIcon = document.querySelector('.header__icon'),
+    headerBlock = document.querySelector('.header__block');
+headerIcon.onclick = function () {
+    headerIcon.classList.toggle('_active');
+    headerBlock.classList.toggle('_active');
+};
+const blockLang = document.querySelector('.block__lang-item-en'),
+    headerLang = document.querySelector('.header__lang-item-en');
+headerLang.onclick = function () {
+    if (headerLang.classList == 'header__lang-item-en _ru') {
+        headerLang.textContent = 'en';
+        headerLang.classList.remove('_ru');
+        blockLang.textContent = 'en';
+        blockLang.classList.remove('_ru');
+    } else {
+        headerLang.textContent = 'ru';
+        headerLang.classList.add('_ru');
+        blockLang.textContent = 'ru';
+        blockLang.classList.add('_ru');
+    }
+};
+blockLang.onclick = function () {
+    if (headerLang.classList == 'header__lang-item-en _ru') {
+        headerLang.textContent = 'en';
+        headerLang.classList.remove('_ru');
+        blockLang.textContent = 'en';
+        blockLang.classList.remove('_ru');
+    } else {
+        headerLang.textContent = 'ru';
+        headerLang.classList.add('_ru');
+        blockLang.textContent = 'ru';
+        blockLang.classList.add('_ru');
+    }
+};
+                        </code>
+                    </pre>
+                </section>
+                <section>
+                    <h2 id="work-experience">Work experience</h2>
+                    <p>No commercial experience.</p>
+                    <h3>My projects on github:</h3>
+                    <ul>
+                        <li><a href="#">Luxtrade</a></li>
+                        <li><a href="#">Charger</a></li>
+                        <li><a href="#">Wooder</a></li>
+                    </ul>
+                    <p>I used HTML, CSS and JS in my projects.</p>
+                </section>
+                <section>
+                    <h2 id="education">Education</h2>
+                    <ul>
+                        <li>MSUT named of Razumovsky.</li>
+                        <li>College Energy, ex. SCTM.</li>
+                        <li>Channel on youtube - Freelincer Life Style.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2 id="english">English</h2>
+                    <p>A0. Undestand base words and phrases.</p>
+                    <p>I lern English on app for education (English Galaxy, Lingualeo, EWA).</p>
+                </section>
+            </main>
+        </div>
+        <footer>
+            <p>© 2022 by Egor Volkov</p>
+            <ul>
+                <li><a href="https://github.com/amzregion">GitHub</a></li>
+                <li>
+                    <a href="https://rs.school/js/">
+                        <img src="https://rs.school/images/rs_school_js.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
